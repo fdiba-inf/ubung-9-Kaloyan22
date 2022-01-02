@@ -15,7 +15,7 @@ public class EllipseDemo {
         System.out.println("Ellipse 2: " + SecondEllipse);
         System.out.println("Ellipse 3: " + ThirdEllipse);
         System.out.println("Ellipse 4: " + FourthEllipse);
-        System.out.println("Ellipse 2 equals Ellipse 1: " + SecondEllipse.equal(FirstEllipse));
-        System.out.println("Ellipse 2 equals Ellipse 3: " + SecondEllipse.equal(ThirdEllipse));
+        System.out.println("Ellipse 2 equals Ellipse 1: " + SecondEllipse.equals(FirstEllipse));
+        System.out.println("Ellipse 2 equals Ellipse 3: " + SecondEllipse.equals(ThirdEllipse));
     }
 }
